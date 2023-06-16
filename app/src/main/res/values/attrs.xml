@@ -2,11 +2,13 @@
 <resources>
 
     <declare-styleable name="Theme">
-<!--        <attr name="textAppearanceHeadlineMain" format="reference"/>
+        <attr name="textAppearanceTab" format="reference"/>
+        <attr name="textAppearanceTabNoActive" format="reference"/>
         <attr name="textAppearanceMain" format="reference"/>
         <attr name="textAppearanceSubtitleMain" format="reference"/>
         <attr name="textAppearanceToolbar" format="reference"/>
-        <attr name="textAppearanceBottomBar" format="reference"/>-->
+        <attr name="textAppearanceBottomBar" format="reference"/>
+
 
         <attr name="B1" format="color"/>
         <attr name="B1_20" format="color"/>
@@ -15,7 +17,7 @@
         <attr name="shadow" format="color"/>
         <attr name="linings" format="color"/>
         <attr name="bottomBarBackground" format="color"/>
-        
+
         <attr name="textColorMain" format="color"/>
         <attr name="textColorHeadlineMain" format="color"/>
         <attr name="textColorSubtitleMain" format="color"/>

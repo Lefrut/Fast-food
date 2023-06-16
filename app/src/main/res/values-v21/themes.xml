@@ -3,6 +3,13 @@
 
     <style name="Theme.Fastfood.V21" parent="Theme.Fastfood.Connect">
 
+        <item name="textAppearanceMain">@style/Fastfood.TextAppearance.Main</item>
+        <item name="textAppearanceSubtitleMain">@style/Fastfood.TextAppearance.SubtitleMain</item>
+        <item name="textAppearanceTab">@style/Fastfood.TextAppearance.Tab</item>
+        <item name="textAppearanceTabNoActive">@style/Fastfood.TextAppearance.TabNoActive</item>
+        <item name="textAppearanceToolbar">@style/Fastfood.TextAppearance.Toolbar</item>
+        <item name="textAppearanceBottomBar">@style/Fastfood.TextAppearance.BottomBar</item>
+
     </style>
 
 </resources>
