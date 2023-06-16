@@ -1,5 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fast-food</string>
+
+
+    <string name="app_name">Фаст фуд</string>
     <string name="Menu">Меню</string>
     <string name="Profile">Профиль</string>
     <string name="Cart">Корзина</string>
