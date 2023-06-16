@@ -1,16 +1,25 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Fastfood" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+<resources>
+
+    <style name="Theme.Fastfood.Night" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="B1">@color/B1</item>
+        <item name="B1_20">@color/B1_20</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="noActive">@color/no_active</item>
+        <item name="noActiveSurface">@color/white</item>
+        <item name="shadow">@color/shadow</item>
+        <item name="linings">@color/linings</item>
+        <item name="bottomBarBackground">@color/bottom_bar_background</item>
+
+        <item name="textColorHeadlineMain">@color/font_header_main</item>
+        <item name="textColorMain">@color/main_font</item>
+        <item name="textColorSubtitleMain">@color/main_subtitle_font</item>
+        <item name="textColorToolbar">@color/toolbar_font</item>
+        <item name="textColorBottomBar">@color/bottom_bar_foreground</item>
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/bottomBarBackground</item>
     </style>
+
+    <style name="Theme.Fastfood.Connect" parent="Theme.Fastfood.Night" />
+
 </resources>
