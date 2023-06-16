@@ -4,7 +4,9 @@
     <color name="main_font">#222831</color>
     <color name="toolbar_font">#222831</color>
     <color name="main_subtitle_font">#AAAAAD</color>
+
     <color name="bottom_bar_foreground">#7B7B7B</color>
+    <color name="bottom_bar_background">#F0F0F0</color>
 
     <color name="down_arrow">#323232</color>
     <color name="B1">#FD3A69</color>
