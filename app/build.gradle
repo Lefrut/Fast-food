@@ -30,11 +30,30 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
     implementation project.navigationComponent
     implementation project.navigationComponentFragment
+
+    implementation project.adapterDelegates
+    implementation project.adapterDelegatesVB
+
+    implementation project.vm
+
+    implementation project.coroutines
+    implementation project.coroutinesAndroid
+
+    implementation project.koinAndroid
+    implementation project.koin
+
+    implementation project.coil
+
+    implementation project.retrofit
+    implementation project.retrofit_gson
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
