@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.dashkevich.fast_food'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.dashkevich.fast_food"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -30,11 +30,32 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
+    implementation project.navigationComponent
+    implementation project.navigationComponentFragment
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation project.adapterDelegates
+    implementation project.adapterDelegatesVB
+
+    implementation project.vm
+
+    implementation project.coroutines
+    implementation project.coroutinesAndroid
+
+    implementation project.koinAndroid
+    implementation project.koin
+
+    implementation project.coil
+
+    implementation project.retrofit
+    implementation project.retrofit_gson
+
+    implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
